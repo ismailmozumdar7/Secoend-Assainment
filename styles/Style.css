@@ -132,11 +132,15 @@ ul li a{
     border-left: 3px solid #FF900E;
     padding: 10px;
   }
+  .love-injoy-img{
+    margin-bottom: -72px;
+  }
 
 .love-injoy-img img{
     height: auto;
     width: 90%;
     float: right;
+    margin-bottom: -72px;
 }
 .injoy-info p{
     color: #464646;
@@ -150,13 +154,15 @@ ul li a{
     box-shadow: 2px 1px 5px 0px;
 }
 .Experience{
-    width: 320px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
     background-color: #FF900E;
+    color: aliceblue;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 
@@ -164,6 +170,17 @@ ul li a{
     .Features-row{
         flex-direction: column;
     }
+    
+    .love-injoy-img{
+      margin-bottom: 0;
+    }
+  
+  .love-injoy-img img{
+      height: auto;
+      width: 90%;
+      float: right;
+      margin-bottom: 0;
+  }
     .love-injoy-img{
       margin-top: 50px;
     }
