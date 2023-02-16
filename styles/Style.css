@@ -163,11 +163,36 @@ ul li a{
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-left: 20px;
+}
+.Some-Facts-container{
+    margin-top: 100px;
+}
+.Some-Facts-container .h1{
+    margin-bottom: 20px;
+}
+.Facts-container{
+    display: flex;
+    justify-content: space-between;
+    
 }
 
+.Facts-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+    width: 240px;
+    border: 1px solid #FF900E;
+    margin-top: 50px;
 
+}
   @media screen and (max-width: 576px) {
     .Features-row{
+        flex-direction: column;
+    }
+    .Facts-container {
         flex-direction: column;
     }
     
